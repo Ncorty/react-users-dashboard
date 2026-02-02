@@ -1,7 +1,6 @@
-
 export interface User {
-    createdAt: string;
+    id: string;
     name: string;
     avatar: string;
-    id: string;
+    createdAt: string;
 }
