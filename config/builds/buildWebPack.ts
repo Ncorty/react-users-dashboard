@@ -24,7 +24,7 @@ import { BuildOptions } from "../types/types";
             module: {
             rules: buildLoaders(),
             },
-            resolve: buildResolve(),
+            resolve: buildResolve(env.paths.src),
             devServer: isDev ? buildDevServer(env) : undefined,
     }
 }
