@@ -19,11 +19,11 @@ export const LoginForm = ({ onSubmit, isLoading, errorText }: Props) =>{
             />
         )}
         <Form<LoginValues> onFinish={onSubmit} layout="vertical">
-            <Form.Item label="Login" name="login" rules={[{ required: true, message: 'Введите логин'}]}>
+            <Form.Item name="login" rules={[{ required: true, message: 'Введите логин'}]}>
                 <Input placeholder="Логин..." disabled={isLoading} />
             </Form.Item>
 
-            <Form.Item label="Password" name="password" rules={[{ required: true, message: 'Введите пароль'}]}>
+            <Form.Item name="password" rules={[{ required: true, message: 'Введите пароль'}]}>
                 <Input.Password placeholder="Пароль..." disabled={isLoading} />
             </Form.Item>
 
