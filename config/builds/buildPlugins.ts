@@ -15,8 +15,8 @@ export function buildPlugins(env: BuildOptions): Configuration['plugins'] {
         isDev &&  new webpack.ProgressPlugin(),
         new Dotenv({
             path: path.resolve(__dirname, '../../.env'),
-            safe: true,  // Проверяет .env.example
-            systemvars: true,  // Загружает системные переменные
+            safe: true,  
+            systemvars: true,  
         }),
     ];
 }

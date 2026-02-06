@@ -1,7 +1,7 @@
 import axios from "axios";
 import { User } from "@/entities/user";
 
-const url = process.env.REACT_APP_API_BASE_URL;;
+const url = process.env.REACT_APP_API_BASE_URL;
 
 
 export const apiClient = {
