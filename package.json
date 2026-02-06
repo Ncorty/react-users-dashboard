@@ -1,0 +1,49 @@
+{
+  "name": "react-users-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --env mode=development",
+    "build:prod": "webpack --env mode=production",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ncorty/react-users-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ncorty/react-users-dashboard/issues"
+  },
+  "homepage": "https://github.com/Ncorty/react-users-dashboard#readme",
+  "devDependencies": {
+    "@types/dotenv-webpack": "^7.0.8",
+    "@types/node": "^25.1.0",
+    "@types/react": "^16.14.68",
+    "@types/react-dom": "^16.9.25",
+    "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.2",
+    "dotenv-webpack": "^8.1.1",
+    "html-webpack-plugin": "^5.6.6",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.43.0",
+    "@types/styled-components": "^5.1.36",
+    "antd": "^5.29.3",
+    "axios": "^1.13.4",
+    "dayjs": "^1.11.19",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.3.8",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
