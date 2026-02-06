@@ -3,6 +3,6 @@ import React from "react";
 
 
 export const PrivateRouter = ({children} : {children: React.ReactElement}) => {
-    const isAuth = localStorage.getItem('isAuth');
+    const isAuth = localStorage.getItem('token');
     return isAuth ? children : <Navigate to="/login" replace/>;
 }
